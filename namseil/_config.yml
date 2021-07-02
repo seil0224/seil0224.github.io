@@ -3,7 +3,7 @@ title: NamSeil
 description: >
   명탐정 남세일 탐정사무소입니다!
 
-baseurl: "/" # the subpath of your site, e.g. /blog/
+baseurl: "/namseil" # the subpath of your site, e.g. /blog/
 url: "https://seil0224.github.io" # the base hostname & protocol for your site
 
 author:

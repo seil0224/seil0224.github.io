@@ -4,11 +4,7 @@ description: >
   명탐정 남세일 탐정사무소입니다!
 
 baseurl: "/namseil" # the subpath of your site, e.g. /blog/
-<<<<<<< HEAD
 url: "https://seil0224.github.io" # the base hostname & protocol for your site
-=======
-url: "https://seil0224.github.io/" # the base hostname & protocol for your site
->>>>>>> 2022c9b6f6918f585719eea7e13664ab709c161d
 
 author:
   fullname: Seil Nam

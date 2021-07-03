@@ -1,0 +1,6 @@
+<div class="about">
+<div class="about__devider">*****</div>
+<div class="about__text">
+<strong> 길을 잃어버렸나요? 그래도 돌아갈 수 있잖아요. </strong>
+</div>
+</div>

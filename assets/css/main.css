@@ -66,6 +66,9 @@
     font-size: 150%;
     font-weight: 600;
     color: #16a085;
+    margin: 0px;
+    margin-top: 6px;
+    padding: 0px;
     display: block; }
 
   .menu {

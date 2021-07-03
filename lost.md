@@ -1,6 +1,5 @@
 ---
 layout: simplepage
-title: &nbsp;&nbsp;
 sitemap:
   exclude: 'yes'
 ---

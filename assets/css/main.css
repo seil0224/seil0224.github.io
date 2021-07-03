@@ -65,10 +65,9 @@
   .smalllogo {
     font-size: 150%;
     font-weight: 600;
+    margin: auto;
+    margin-bottom: 10px;
     color: #16a085;
-    margin: 0px;
-    margin-top: 6px;
-    padding: 0px;
     display: block; }
 
   .menu {

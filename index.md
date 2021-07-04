@@ -11,5 +11,6 @@ sitemap:
 <div id="describe-text">
 	<p>상담 요청은 다음 경로를 통해 받고 있습니다!<br>
 	<a href="https://twitter.com/Detective_Seil" target="_blank">남세일 탐정 트위터</a><br>
+		<a href="https://seil0224.github.io/notice/2021/07/02/whoishim.html" target="_blank">필독! 남세일 봇 설명서</a><br>
 	메일: detectivenamseil@gmail.com</p>
 </div>

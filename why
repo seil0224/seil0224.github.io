@@ -1,0 +1,18 @@
+---
+layout: simplepage
+<!-- title: none -->
+sitemap:
+  exclude: 'yes'
+---
+
+<p>
+형. <br>
+도윤이 형. <br>
+그 때 왜 사실대로 말씀 안 하셨어요? <br>
+사실 알고 계셨잖아요. <br>
+왜? 왜 저를 변호해주지 않은 거예요?<br>
+</p>
+
+
+<!-- Adding the glitch effect -->
+<script> document.getElementsByTagName('body')[0].classList.add('glitch'); </script>

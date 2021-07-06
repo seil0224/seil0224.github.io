@@ -4,15 +4,22 @@ sitemap:
   exclude: 'yes'
 ---
 
+<script>
+  function jsMove(){
+    var baselink = "https://seil0224.github.io/labyrinth/"
+    var pc = document.getElementById('passcode').value;
+    location.href = baselink.concat(pc);
+  }
+</script>
+
+
 <p>
 암호를 입력하세요. <br>
 형식: 숫자 <br>
-  <script>
-    <form action = document.getElementById() method='get' autocomplete='off'>
+  <form autocomplete='off' onsubmit = "jsMove();">
       <input id = 'passcode' type='text' required><br><br>
       <input type = 'submit' value = '제출합니다.'>
     </form>
-  </script>
 </p>
 
 070322

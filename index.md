@@ -13,4 +13,6 @@ sitemap:
 	<a href="https://twitter.com/Detective_Seil" target="_blank">남세일 탐정 트위터</a><br>
 		<a href="https://seil0224.github.io/notice/2021/07/02/whoishim.html" target="_blank">필독! 남세일 봇 설명서</a><br>
 	메일: detectivenamseil@gmail.com</p>
+	<br>
+	<p style="color: red;">주의: 이 블로그의 특정 포스트에는 불쾌감을 줄 수 있는 깨진 문자, 광과민성 발작을 일으킬 수 있는 연출, 기타 읽는 도중 깜짝 놀라게 만들 수 있는 요소 등이 포함되어 있습니다. </p>
 </div>

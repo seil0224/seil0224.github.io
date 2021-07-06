@@ -8,8 +8,9 @@ sitemap:
   function jsMove(){
     var baselink = "https://seil0224.github.io/labyrinth/"
     var pc = document.getElementById('passcode').value;
-    alert("비밀번호: "+pc);
-    window.open(baselink.concat(pc));
+    alert("접속을 시도합니다. 404에러는 유효하지 않은 비밀번호를 의미합니다.");
+    // window.open(baselink.concat(pc));
+    return baselink.concat(pc);
   }
 </script>
 

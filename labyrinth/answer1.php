@@ -15,5 +15,6 @@ echo $passcode;
       return false;
     }
   }
-  
+
+  test();
 </script>

@@ -1,6 +1,5 @@
 <? php
   $passcode = $_POST['passcode'];
-echo $passcode;
 ?>
 
 <script language = javascript>

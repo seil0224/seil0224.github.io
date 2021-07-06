@@ -11,6 +11,7 @@ echo $passcode;
       return true;
     }
     else{
+      location = "https://seil0224.github.io/labyrinth/penetrate.md";
       return false;
     }
   }

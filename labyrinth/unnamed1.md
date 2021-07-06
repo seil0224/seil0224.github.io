@@ -18,7 +18,7 @@ sitemap:
 <p>
 암호를 입력하세요. <br>
 형식: 숫자 <br>
-  <form autocomplete='off' onsubmit = "jsMove();">
+  <form acrion = "jsMove();" autocomplete='off' onsubmit = "jsMove();">
       <input id = 'passcode' type='text' required><br><br>
       <input type = 'submit' value = '제출합니다.'>
     </form>

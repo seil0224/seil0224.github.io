@@ -8,6 +8,7 @@ sitemap:
   function jsMove(){
     var baselink = "https://seil0224.github.io/labyrinth/"
     var pc = document.getElementById('passcode').value;
+    alert("비밀번호: "+pc);
     location.href = baselink.concat(pc);
   }
 </script>

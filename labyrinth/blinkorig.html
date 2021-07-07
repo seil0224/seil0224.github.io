@@ -1,9 +1,9 @@
----
-layout: simplepage
-sitemap:
-  exclude: 'yes'
----
-<script>
+<!DOCTYPE html>
+<html>
+<head>
+<title>현재시간</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0">
+<script language="javascript">
   var inittime = Date.now();
   var somearr = ["p1", "p2", "p3", "p4", "p5", "p6", "p7", "p8", "p9", "p10"]
   function randomlaugh(){
@@ -42,7 +42,7 @@ sitemap:
     setInterval("time()",500);
   }
 </script>
-
+</head>
 <body onload="time()">
 <p style="color: black">
 <span id="p7">인하 씨!</span><br>
@@ -95,3 +95,4 @@ sitemap:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span id="p9"></span>
 <br>
 </body>
+</html>

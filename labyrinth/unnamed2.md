@@ -5,7 +5,6 @@ sitemap:
 ---
 
 <script>
-  document.getElementsById('ssy')[0].classList.add('glitch'); 
   function jsMove(){
     var baselink = "https://seil0224.github.io/labyrinth/un2"
     var pc = document.getElementById('passcode').value;
@@ -17,7 +16,7 @@ sitemap:
 
 <p>
 나는 당신과 죄악을 공유하는 유일무이한 사람이야.<br>
-<span id="ssy">ì ì¹ì°...</span><br>
+<span class="menu">ì ì¹ì°...</span><br>
 네가 날 이렇게 대하고도 무사할 것 같아?<br>
 <br>
 A = 💉🤫<br>

@@ -5,6 +5,7 @@ sitemap:
 ---
 
 <script>
+  document.getElementsById('ssy')[0].classList.add('glitch'); 
   function jsMove(){
     var baselink = "https://seil0224.github.io/labyrinth/un2"
     var pc = document.getElementById('passcode').value;
@@ -33,5 +34,3 @@ E = 😡📃<br>
     </form>
 </p>
 
-<!-- Adding the glitch effect -->
-<script> document.getElementsById('ssy')[0].classList.add('glitch'); </script>

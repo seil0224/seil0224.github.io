@@ -16,7 +16,7 @@ sitemap:
 
 <p>
 나는 당신과 죄악을 공유하는 유일무이한 사람이야.<br>
-신승연...<br>
+<span id="ssy">ì ì¹ì°...</span><br>
 네가 날 이렇게 대하고도 무사할 것 같아?<br>
 <br>
 A = 💉🤫<br>
@@ -32,3 +32,6 @@ E = 😡📃<br>
       <input type = 'submit' value = '제출합니다.'>
     </form>
 </p>
+
+<!-- Adding the glitch effect -->
+<script> document.getElementsById('ssy')[0].classList.add('glitch'); </script>

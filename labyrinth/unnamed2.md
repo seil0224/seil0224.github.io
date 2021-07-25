@@ -26,7 +26,7 @@ D = 🎤👎<br>
 E = 😡📃<br>
 <br>
 암호를 입력하세요. <br>
-형식: 알파벳 <br>
+형식: 알파벳 대문자 <br>
   <form autocomplete='off' onsubmit = "jsMove();">
       <input id = 'passcode' type='text' required><br><br>
       <input type = 'submit' value = '제출합니다.'>

@@ -15,11 +15,11 @@ sitemap:
 
 
 <p>
-이 때, 신하를 죽인 사람의 위치와 색깔은?<br>
 <br>
 <img src="https://seil0224.github.io/images/hierarchy.png" style="width: 75%; height: auto;">
 <br>
-암호를 입력하세요. <br>
+이 때, 신하를 죽인 사람의 위치와 색깔은?<br>
+<br>
 형식: 두 단어의 조합 (띄어쓰기 없이) <br>
   <form autocomplete='off' onsubmit = "jsMove();">
       <input id = 'passcode' type='text' required><br><br>

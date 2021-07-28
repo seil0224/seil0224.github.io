@@ -9,6 +9,6 @@ sitemap:
 <p align="center">
 목을 매단 시체, 또는 그것을 연상시키는 기호와 그림<br>
 <br>
-그래도 진행하시려면, <a href = "https://seil0224.github.io/labyrinth/unnamed4">여기</a>를 클릭하세요.
+그래도 진행하시려면, <a href = "https://seil0224.github.io/labyrinth/unnamed4" style="color: #13b013;">여기</a>를 클릭하세요.
 </p>
 

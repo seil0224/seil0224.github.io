@@ -16,7 +16,7 @@ sitemap:
 
 <p>
 <br>
-<img src="https://seil0224.github.io/images/hangman.png" style="width: 75%; height: auto;">
+<img src="https://seil0224.github.io/images/hangman.png" alt="hangman" style="width: 75%; height: auto;">
 <br>
 형식: 영어<br>
   <form autocomplete='off' onsubmit = "jsMove();">

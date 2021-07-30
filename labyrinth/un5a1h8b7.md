@@ -10,8 +10,8 @@ sitemap:
     var time = new Date();
     var diff = time-inittime;
     var rand1 = Math.round((Math.random())*4);
-    var rand2 = rand1+1+Math.round((Math.random())*3);
-    var rand3 = rand2+1+Math.round((Math.random())*3);
+    var rand2 = rand1+2+Math.round((Math.random())*3);
+    var rand3 = rand2+2+Math.round((Math.random())*3);
     if(diff>=rand1*1000){
     document.getElementById("first").innerHTML="<br>제가 이렇게 멀쩡하게 살아있는데."
     }

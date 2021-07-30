@@ -31,7 +31,7 @@ sitemap:
 
 <body onload="time()">
 <p>
-<span style="color: #a8e3ae">
+<span style="color: #79a37d">
 하고자 하는 것은 단 한 가지입니다. <b>구조 요청.</b> <br>
 저는 지금 그 자리에 그대로 있습니다. <br>
 제 목소리를 마지막으로 들으셨던 곳이요. <br></span>

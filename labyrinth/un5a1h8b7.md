@@ -24,6 +24,7 @@ sitemap:
     if(diff>=rand3*1000){
     document.getElementById("third").innerHTML="<br>다들 어디에 있어요..."
     }
+    setInterval("time()",1000);
   }
 </script>
 
@@ -40,7 +41,7 @@ sitemap:
 제가 말씀드렸잖아요, 어디 가지 말고 가만히 계시라고. <br>
 주영 씨를 걱정하는 마음은 알겠지만, 똑같이 위험해지실 수 있어요. <br>
 무대 아래로 발을 헛디뎌 떨어진다거나, <br>
-그러다가 파편에 맞아 비명조차 못 지르고 죽어버린다거나. <br>
+그러다가 파편에 찔려 비명조차 못 지르고 죽어버린다거나. <br>
 제 이야기는 아니고요. <br>
 저게 제 이야기면 제가 여기에 있을 이유가 없잖아요, 그렇죠? <span id="first" class="glitch">&nbsp;</span><br>
 저, 이대로 돌아가면 PD님한테 혼날 거예요...<br>

@@ -19,7 +19,7 @@ sitemap:
 어디서부터 잘못된거지? <br>
 나는... <br>
 <br>
-형식: 소문자 영단어 <br>
+형식: 소문자 영단어 (맨 밑) <br>
   <form autocomplete='off' onsubmit = "jsMove();">
       <input id = 'passcode' type='text' required><br><br>
       <input type = 'submit' value = '제출합니다.'>

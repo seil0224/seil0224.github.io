@@ -9,9 +9,6 @@ sitemap:
   function time(){
     var time = new Date();
     var diff = time-inittime;
-    document.getElementById("first").innerHTML="&nbsp;";
-    document.getElementById("second").innerHTML="&nbsp;";
-    document.getElementById("third").innerHTML="&nbsp;";
     var rand1 = Math.round((Math.random())*4);
     var rand2 = rand1+1+Math.round((Math.random())*3);
     var rand3 = rand2+1+Math.round((Math.random())*3);

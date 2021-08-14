@@ -12,5 +12,5 @@ sitemap:
 익히 알려진 오해와 달리 혜성은 떨어지는 별이 아닌, 태양을 중심으로 공전하는 천체이다. <br>
 다만, 혜성이 지구에 접근하며 떨어트리는 잔해물로 인해 다수의 유성, 또는 유성우가 관측될 수 있다. <br>
 <br>
-<a href="https://twitter.com/labyrinth/fstotruth">다음</a>
+<a href="https://seil0224.github.io/labyrinth/fstotruth">다음</a>
 </p>

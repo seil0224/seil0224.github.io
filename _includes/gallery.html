@@ -31,10 +31,12 @@
   {% if file.path contains include.folder %}
     {% assign filenameparts = file.url | split: "/" %}
       {% assign filename = filenameparts | last | replace: ".html","" %}
+      {% if filename != include.folder %}
        <div class="box"><a href="{{ file.url }}" title="{{ filename }}">
        <img src="{{ site.thumbsurl }}{{ filename }}{{ ".png" }} " alt="{{ filename }}"  class="img-gallery" />
        </a>
        </div>
+      {% endif %}
     {% endif %}
   {% endfor %}
 </div>

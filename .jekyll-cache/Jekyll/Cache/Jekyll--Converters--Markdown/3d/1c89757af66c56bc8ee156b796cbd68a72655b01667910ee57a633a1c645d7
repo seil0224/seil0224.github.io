@@ -1,9 +1,0 @@
-I"É<script>
-  function jsMove(){
-    var baselink = "https://seil0224.github.io/labyrinth/un5"
-    var pc = document.getElementById('passcode').value;
-    window.open(baselink.concat(pc));
-  }
-</script>
-
-:ET

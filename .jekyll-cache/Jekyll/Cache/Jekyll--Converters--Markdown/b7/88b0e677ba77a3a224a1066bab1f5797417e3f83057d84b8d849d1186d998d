@@ -1,9 +1,0 @@
-I"Ú<script>
-  function jsMove(){
-    var baselink = "https://seil0224.github.io/labyrinth/fallen"
-    var pc = document.getElementById('passcode').value;
-    window.open(baselink.concat(pc.toLowerCase()));
-  }
-</script>
-
-:ET

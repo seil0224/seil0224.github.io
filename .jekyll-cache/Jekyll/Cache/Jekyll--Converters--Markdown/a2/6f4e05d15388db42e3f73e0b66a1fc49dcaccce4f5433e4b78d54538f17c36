@@ -1,0 +1,27 @@
+I"�<script>
+  function jsMove(){
+    var baselink = "https://seil0224.github.io/labyrinth/un5"
+    var pc = document.getElementById('passcode').value;
+    window.open(baselink.concat(pc));
+  }
+</script>
+
+<p>한편 황제를 무너뜨리려는 제국 내 수많은 저항 세력 중, 사람들이 가장 많이 기억하고 따르는 혁명군 세력이 존재했습니다. <br />
+가면으로 얼굴을 가린 황제에 맞서, 혁명군 세력 또한 얼굴의 반을 가리는 가면을 쓰고 활동했답니다. <br />
+온건파였던 혁명군의 수장은 신중하게 선택해야 한다고 주장했습니다. <br />
+하지만 급진파였던 그의 부관은 혁명을 성공시키기 위해서라면 무엇이든 할 수 있다는 주의였지요. <br />
+결국 혁명군은 두 개의 세력으로 나뉘게 되고, 급진파는 전쟁을 준비하고 있던 이웃 왕국과 연락을 취하지요! <br />
+제국에서 기습을 하려고 하니, 왕국에서 먼저 쳐들어와야 한다고요. <br />
+<span style="color:white">
+오만에 대한 벌? 저지른 죄에 대한 벌? 죄를 인정하지 않은 것에 대한 벌? <br />
+뭐가 되었든, 이제는 괜찮아. 가혹한 현실 대신 유치한 환상을 선택할 수 있다면, 나는 계속 이 곳에 머물러 있을래. <br />
+… <br />
+… 아무도 없어요…? 흐흑, 흑… <img src="https://seil0224.github.io/images/20181004.png" alt="20181004" style="width: 10%; height: 10%; " /> <br />
+</span>
+형식: 숫자 <br /></p>
+<form autocomplete="off" onsubmit="jsMove();">
+      <input id="passcode" type="text" required="" /><br /><br />
+      <input type="submit" value="제출합니다." />
+    </form>
+
+:ET

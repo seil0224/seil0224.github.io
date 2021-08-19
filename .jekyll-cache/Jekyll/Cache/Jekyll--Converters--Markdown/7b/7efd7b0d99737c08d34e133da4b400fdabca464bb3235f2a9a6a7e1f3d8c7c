@@ -1,0 +1,12 @@
+I"�<script>
+  function defa(){
+    location.href="https://seil0224.github.io/labyrinth/fs666c6f6f";
+  }
+</script>
+
+<body onload="defa()">
+<p>
+이동중...
+</p>
+</body>
+:ET

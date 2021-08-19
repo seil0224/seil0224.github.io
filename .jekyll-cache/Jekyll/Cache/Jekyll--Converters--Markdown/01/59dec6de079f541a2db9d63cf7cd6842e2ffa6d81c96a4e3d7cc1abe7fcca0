@@ -1,0 +1,25 @@
+I"�<script>
+  function jsMove(){
+    var baselink = "https://seil0224.github.io/labyrinth/un5"
+    var pc = document.getElementById('passcode').value;
+    alert("접속을 시도합니다. 404에러는 유효하지 않은 비밀번호를 의미합니다.");
+    var str = pc.toLowerCase();
+    window.open(baselink.concat(str.replace('f2', 'e4')));
+  }
+</script>
+
+<p>
+<span style="color: #79a37d">
+탐정놀이는 이야기를 전하기 위한 하나의 수단에 지나지 않지요. <br />
+어이없는 말장난으로 뒤범벅이 되어 있든, 한 문장 건너 하나씩 패러디가 나오든... <br /></span>
+<img src="https://seil0224.github.io/images/chart.png" alt="find your answer in the story of the game" style="width: 75%; height: auto;" />
+<br />
+형식: 영어와 숫자<br />
+  <form autocomplete="off" onsubmit="jsMove();">
+      <input id="passcode" type="text" required="" /><br /><br />
+      <input type="submit" value="제출합니다." />
+    </form>
+<br />
+</p>
+
+:ET

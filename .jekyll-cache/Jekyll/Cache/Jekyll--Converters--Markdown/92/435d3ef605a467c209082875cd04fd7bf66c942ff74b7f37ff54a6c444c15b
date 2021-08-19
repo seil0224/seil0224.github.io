@@ -1,0 +1,94 @@
+I"U
+<body>
+<p>
+C루트 깨진문자(iso-8859-1)에서 일반(utf-8)문자로 변환하는 번역기입니다.<br />
+주의사항: 간혹, 모바일 환경에서 만들어진 깨진 문자는 데이터 손실이 발생해 진짜로 깨져버릴 수 있습니다.<br />
+이 경우는 복호화가 제대로 되지 않는데, 암튼 코딩한 사람 잘못은 아님 진짜임<br />
+버그 리포트 또는 의견 제시: hardrock6hsy&#64;gmail.com<br />
+팬레터: detectivenamseil&#64;gmail.com<br />
+번역하려는 문장:<br />
+<textarea name="Input" id="Input" rows="7" cols="40"></textarea><br />
+<div><button id="preview">Preview</button></div>
+<br />번역 결과:<br />
+<div id="Output"><p>여기에 결과가 나타납니다.</p></div>
+<div id="second"></div>
+<span id="third"></span><br />
+<span id="fourth"></span><br />
+</p>
+</body>
+
+<script>
+"use strict";
+
+let uint8Array = new Uint8Array([97,236,149,136,235,133,149]);
+
+function intesc(str){
+  var array = str.split("");
+  var cnt = 0;
+  var len = array.length;
+  var res = "";
+  var res2 = "";
+  let encoder = new TextEncoder();
+  while(cnt<len){
+    var temp = (array[cnt]).charCodeAt(0);
+    if(temp<128){
+      res2 = temp.toString(16);
+      res = res.concat("%".concat(res2));
+    }
+    else{
+      if(temp<256){ // iso-8859-1
+        res = res.concat(escape(array[cnt]));
+      }
+      else{ // utf-8
+        var uint8arr = encoder.encode(array[cnt]);
+        for(var i=0; i<uint8arr.length; i++){
+          res = res.concat("%".concat(uint8arr[i].toString(16)));
+        }
+        //res = "".concat(uint8arr);
+      }
+    }
+    cnt =  cnt+1;
+  }
+  return res;
+}
+
+function intenc(str){
+  let arr = str.split("%"); // 이렇게 형성된 array의 0번째는 NaN이므로 버려야 함
+  let arr2 = new Uint8Array(arr.length-1);
+  for(var i=1; i<arr.length; i++){
+    arr2[i-1] = (parseInt(arr[i],16));
+  }
+  return arr2;
+}
+
+function intdec(arr){
+  let dec1 = new TextDecoder("utf-8");
+  // let dec2 = new TextDecoder("iso-8859-1");
+  var res = "";
+  let sb = document.getElementById("Option");
+  res = dec1.decode(arr);
+  return res;
+}
+
+function showText(){
+  var getTxt = document.getElementById("Input").value;
+  var lines = getTxt.split("\n");
+  var res = "<p>";
+//  var res2 = "<p>";
+  var len = lines.length;
+  for(var i=0; i<len; i++){
+    res+=intdec(intenc(intesc(lines[i])))+"<br>";
+//    res2+=intenc(intesc(lines[i]))+"<br>";
+  }
+  res+="</p>";
+//  res2+="</p>";
+  document.getElementById("Output").innerHTML = res;
+//  document.getElementById("second").innerHTML = res2;
+}
+
+window.onload=function(){
+  document.getElementById("preview").onclick=showText;
+}
+</script>
+
+:ET

@@ -5,7 +5,7 @@ subtitle: 남세일 탐정사무소 사진첩
 ---
 
 <div>
-{% assign postsCategory = site.posts | group_by_exp:"post", "post.categories"  %}
+{% assign postsCategory = site.images | group_by_exp:"post", "post.categories"  %}
 {% for category in postsCategory %}
 <h4 class="post-teaser__month">
 <strong>

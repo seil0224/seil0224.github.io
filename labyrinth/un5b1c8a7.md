@@ -15,6 +15,6 @@ sitemap:
 재능이 있다는 말이 그렇게 고팠나봐요... <br>
 <br>
 <span style="color: red">오답입니다.<br></span>
-<a href="https://seil0224.github.io/labyrinth/un520181004" target="_blank">문제 페이지로 돌아가기</a>
+<a href="/labyrinth/un520181004">문제 페이지로 돌아가기</a>
 <br>
 </p>

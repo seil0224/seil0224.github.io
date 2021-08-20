@@ -12,6 +12,6 @@ sitemap:
 저는, 그럼 저는 어떻게 했어야 해요...? <br>
 <br>
 <span style="color: red">오답입니다.<br></span>
-<a href="https://seil0224.github.io/labyrinth/un520181004" target="_blank">문제 페이지로 돌아가기</a>
+<a href="/labyrinth/un520181004">문제 페이지로 돌아가기</a>
 <br>
 </p>

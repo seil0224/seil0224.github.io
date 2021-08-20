@@ -6,7 +6,7 @@ sitemap:
 
 <script>
   function jsMove(){
-    var baselink = "https://seil0224.github.io/labyrinth/fs"
+    var baselink = "/labyrinth/fs"
     var pc = document.getElementById('passcode').value;
     alert("이번엔 딱히 비밀번호는 아니지요?");
     window.open(baselink.concat(pc.toLowerCase()));

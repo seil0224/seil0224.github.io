@@ -6,7 +6,7 @@ sitemap:
 
 <script>
   function jsMove(){
-    var baselink = "https://seil0224.github.io/labyrinth/un4desire"
+    var baselink = "/labyrinth/un4desire"
     var pc = document.getElementById('passcode').value;
     window.open(baselink.concat(pc.toLowerCase()));
   }

@@ -7,13 +7,16 @@
     color: #012;
     background-color: #FFF; }
 
-  a {
+  a{ text-decoration: none;
+  }
+  a:link { color: #13b013;
+  }
+  a:visited{
     color: #13b013;
-    link: #23c023;
-    visited: #13b013;
-    font-weight: bold;
-    text-decoration: none; }
-
+  }
+  a:hover{
+    color: #23c023;
+  }
   p, ul, ol, dl {
     font-size: 100%;
     line-height: 32px; }

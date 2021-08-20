@@ -1,7 +1,7 @@
 ---
 layout: page
-title:  "후후후!"
-subtitle: "이미지 테스트용"
+title:  "헤더 이미지"
+subtitle: "후후후후!"
 ---
 
 <div style="text-align : center;">

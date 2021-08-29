@@ -17,7 +17,7 @@ p{
   function jsMove(){
     var baselink = "/labyrinth/fin-"
     var pc = document.getElementById('passcode').value;
-    alert("이 곳까지 오느라 고생 많으셨습니다.");
+    alert("...");
     window.open(baselink.concat(pc.toLowerCase()));
   }
 </script>

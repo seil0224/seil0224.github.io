@@ -11,7 +11,8 @@ sitemap:
   }
 </script>
 <p>
-첫 단어만 입력하세요.
+<a href="https://docs.google.com/document/d/1hapWWIZl7tzpY3yn86ZTfkJwkpa-H4VGZLq1loVcrnM/edit">남세일 탐정 공인 미궁 힌트</a><br>
+엔딩 메시지의 첫 단어만 입력하세요.<br>
 <br>
 형식: 영어<br>
   <form autocomplete='off' onsubmit = "jsMove();">

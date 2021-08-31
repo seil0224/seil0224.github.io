@@ -5,7 +5,7 @@ sitemap:
 ---
 
 <div style="text-align : center;">
-<p  style="color:16a085; font-size: 150%; font-weight:600;">끝까지 즐겨주셔서 정말 감사합니다!</p>
+<p  style="color:#16a085; font-size: 150%; font-weight:600;">끝까지 즐겨주셔서 정말 감사합니다!</p>
 <p>
 남세일 탐정의 정체는 바로 무대 현장에서 사망한 것으로 알려진 장세일.<br>
 베리드 스타즈 4 무대 붕괴 현장에 고립되었던 7명은 전원 사망한 채로 발견되었습니다.<br>

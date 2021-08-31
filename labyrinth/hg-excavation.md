@@ -5,7 +5,7 @@ sitemap:
 ---
 
 <div style="text-align : center;">
-<p  style="color:16a085; font-size: 150%; font-weight:600;">끝까지 즐겨주셔서 정말 감사합니다!</p>
+<p  style="color:#16a085; font-size: 150%; font-weight:600;">끝까지 즐겨주셔서 정말 감사합니다!</p>
 <p>
 남세일 탐정의 정체는 바로 오인하를 스토킹하고 무대 현장에서 두 명을 살해한 뒤 자살한 것으로 알려진 장세일.<br>
 사건 당시 무대 아래의 출연자들은 위화감을 느꼈지만 누구도 그것을 쉽게 입 밖으로 꺼낼 수가 없었고,<br>

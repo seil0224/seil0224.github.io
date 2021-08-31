@@ -6,7 +6,7 @@ sitemap:
   priority: 0.9
 ---
 
-<img src="{{ '/assets/img/profilepic.jpg' | prepend: site.baseurl }}" id="about-img">
+<a href="/labyrinth/enter-endingmessage"><img src="{{ '/assets/img/profilepic.jpg' | prepend: site.baseurl }}" id="about-img"></a>
 <p style="font-size:12px; color: #999999; text-align: center"> ↑ 남세일 탐정의 아주 멋진 모습이다. </p>
 <div id="describe-text">
 	<p>상담 요청은 다음 경로를 통해 받고 있습니다!<br>

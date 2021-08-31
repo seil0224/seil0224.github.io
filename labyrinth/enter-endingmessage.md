@@ -5,7 +5,7 @@ sitemap:
 ---
 <script>
   function jsMove(){
-    var baselink = "/labyrinth/hg"
+    var baselink = "/labyrinth/hg-"
     var pc = document.getElementById('passcode').value;
     window.open(baselink.concat(pc.toLowerCase()));
   }

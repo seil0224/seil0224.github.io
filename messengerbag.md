@@ -10,7 +10,7 @@ subtitle: 잡다한 것이 들어있다.
     {% if file.path contains include.folder %}
       {% assign filenameparts = file.url | split: "/" %}
       {% assign filename = filenameparts | last | replace: ".html","" %}
-      {% if filename != include.folder %}
+      {% if filename != "messengerbag" %}
         <a href="{{ file.url }}" title="{{ filename }}"> {{file.title}} ㅎㅎ </a> </div> 
       {% endif %}
     {% endif %}

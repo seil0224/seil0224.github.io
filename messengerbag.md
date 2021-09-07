@@ -11,7 +11,7 @@ subtitle: 잡다한 것이 들어있다.
       {% assign filenameparts = file.url | split: "/" %}
       {% assign filename = filenameparts | last | replace: ".html","" %}
       {% if filename != include.folder %}
-        <a href="{{ file.url }}" title="{{ filename }}"> file.title </a> </div> 
+        <a href="{{ file.url }}" title="{{ filename }}"> {{file.title}} ㅎㅎ </a> </div> 
       {% endif %}
     {% endif %}
   {% endfor %}

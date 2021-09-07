@@ -7,7 +7,7 @@ subtitle: 잡다한 것이 들어있다.
 <div class ="messangerbag">
 {% assign sorted = site.pages | sort: 'date'%}
   {% for file in sorted %}
-    {% if file.path contains include.folder %}
+    {% if file.path contains "messengerbag" %}
       {% assign filenameparts = file.url | split: "/" %}
       {% assign filename = filenameparts | last | replace: ".html","" %}
       {% if filename != "messengerbag" %}

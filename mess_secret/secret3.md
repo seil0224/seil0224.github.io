@@ -5,6 +5,19 @@ subtitle: (...)
 permalink: /messengerbag/secret3/
 ---
 
+
+<style>
+body{
+  background-color: #777;
+}
+.page-title__subtitle{
+  color: #AAA;
+}
+.about__text{
+  color: #AAA;
+}
+</style>
+
 <p>
 ì¤í에 쓰이는 동물은 쥐, 토끼, 원숭이, 돼지가 있다.<br>
 그 중에서도 쥐가 가장 [ë¤ìí ë¶ì¼]에서 쓰이는데, 유전자 및 ì¸í¬ ì¡°ì±ì´ ì¸ê°ê³¼ í¡ì¬하고 생애 주기가 짧아 ì¤í ê²°ê³¼ë¥¼ ê´ì¸¡íê¸° ì©ì´하기 때문이다.<br>

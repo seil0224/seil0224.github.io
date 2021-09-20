@@ -4,7 +4,7 @@ title: ...
 ---
 <script>
   function defa(){
-    location.href="/messengerbag/secret1";
+    location.href="/messengerbag/secret1alert";
   }
 </script>
 <body onload="defa()">

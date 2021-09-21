@@ -2,7 +2,7 @@
 layout: page
 title: 낡은 일지
 subtitle: (...)
-permalink: /messengerbag/secret3/
+permalink: /messengerbag/secret3ethic/
 ---
 
 

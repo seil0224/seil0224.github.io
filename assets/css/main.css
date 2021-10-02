@@ -238,7 +238,11 @@
       width: 100%; }
 
   }
-
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 /* =Glitch effect, Source: http://codepen.io/bulby97/pen/fcvay *//*************************************************************/
   .glitch {
     position: relative;

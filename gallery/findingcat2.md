@@ -21,7 +21,8 @@ subtitle: "(두 번째 포스터이다.)"
 
 <div style="text-align : center;">
 <img src = "/images/findingcat2.png" class="center" style="width: 75%">
-<p> ... </p>
+<p> 힌트 1. 고양이 사진 아래쪽의 내용만 신경쓰세요.<br>
+힌트 2. 12개로 이루어진 것? </p>
 <p> 
 형식: 문자 <br>
   <form autocomplete='off' onsubmit = "jsMove();">

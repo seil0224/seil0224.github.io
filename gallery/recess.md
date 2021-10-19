@@ -29,7 +29,7 @@ date:   2021-10-19 23:31:00
 <p> 
 <br>
 버튼을 누른 결과를 아래에 입력하세요.
-형식: 문자(영어, 대소문자 관계 없이 8자) <br>
+형식: 문자(영어, 대소문자 관계 없이 9자) <br>
   <form autocomplete='off' onsubmit = "jsMove();">
       <input id = 'passcode' type='text' required><br><br>
       <input type = 'submit' value = '제출합니다.'>

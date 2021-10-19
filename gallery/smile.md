@@ -2,6 +2,7 @@
 layout: page
 title:  "후후후!"
 subtitle: "이미지 테스트용"
+date:   2021-08-20 02:34:00
 ---
 
 <div style="text-align : center;">

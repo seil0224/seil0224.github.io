@@ -2,6 +2,7 @@
 layout: page
 title:  "고양이를 찾습니다."
 subtitle: "부디 제 고양이를 찾아주세요."
+date:   2021-10-03 02:22:00
 ---
 <style>
 .center {

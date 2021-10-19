@@ -2,6 +2,7 @@
 layout: page
 title:  "고양이를 찾습니다."
 subtitle: "(두 번째 포스터이다.)"
+date:   2021-10-03 12:14:00
 ---
 <style>
 .center {

@@ -2,6 +2,7 @@
 layout: page
 title:  "헤더 이미지"
 subtitle: "후후후후!"
+date:   2021-08-20 16:33:00
 ---
 
 <div style="text-align : center;">

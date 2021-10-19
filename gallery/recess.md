@@ -22,7 +22,9 @@ date:   2021-10-19 23:31:00
 
 <div style="text-align : center;">
 <img src = "/images/recess.png" class="center" style="width: 75%">
-<p> 힌트 1. 각 숫자만큼 버튼을 눌러야 합니다. (예: 1 -> 한 번)<br>
+<p> 
+힌트 0. 각 색의 증가 단위는 1입니다. <br>
+힌트 1. 각 숫자만큼 버튼을 눌러야 합니다. (예: 1 -> 한 번)<br>
 힌트 2. 왼쪽 위에서 시작해서, 첫 번째 행부터 차례대로 눌러야 합니다.<br></p>
 <p> 
 <br>

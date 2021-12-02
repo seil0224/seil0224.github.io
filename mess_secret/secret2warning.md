@@ -2,7 +2,6 @@
 layout: page
 title: 경고문
 subtitle: (...)
-permalink: /messengerbag/secret2/
 ---
 
 <p>

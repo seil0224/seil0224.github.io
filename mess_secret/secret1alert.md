@@ -2,6 +2,7 @@
 layout: page
 title: 어떤 메시지
 subtitle: (...)
+permalink: /messengerbag/secret1alert/
 ---
 
 <p>
